@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Experiment outputs
+logs/
+experiment_logs/
+experiment_results/
+saved_models/
+results/
+
+# Dataset data files (keep .py source files)
+datasets/linear/
+datasets/nonlinear/
+datasets/lv/
+datasets/msds/
+datasets/swat/
+datasets/temporal_service/
+datasets/temporal_service_dynamic/
+datasets/random_connection/
+datasets/tep/
+datasets/SMAP_MSL/
+datasets/SMD/
+datasets/aiops_node_disk_fill/
+datasets/extending_subgraph_service/
+
+# OS
+.DS_Store
+Thumbs.db

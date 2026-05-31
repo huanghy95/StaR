@@ -4,7 +4,7 @@
 
 ## Overview
 
-**StaR (Stateful Root Cause Analysis)** is a novel deep learning framework for root cause analysis (RCA) and causal discovery in dynamic multivariate time series systems. By integrating temporal graph networks with Granger causality, StaR effectively captures both temporal dependencies and graph-structured relationships for accurate fault localization and causal structure inference.
+StaR (Stateful Root Cause Analysis) is a deep learning framework for root cause analysis and causal discovery in dynamic multivariate time-series systems. This repository provides the official implementation of our KDD 2026 paper, “StaR: Stateful Dynamic-Graph Root Cause Analysis through Memory-Enhanced Causality Discovery.”
 
 ### Key Features
 
@@ -46,7 +46,7 @@ StaR consists of three main components:
 1. **Clone the repository**:
 ```bash
 git clone <repository-url>
-cd TGN_AERCA_public
+cd StaR
 ```
 
 2. **Create virtual environment** (recommended):
@@ -259,11 +259,16 @@ Experiment logs are saved in `experiment_logs/` and `logs/`.
 ## Citation
 
 ```bibtex
-@article{anonymous2026star,
-  title={StaR: Stateful Dynamic-Graph Root Cause Analysis through Memory-Enhanced Causality Discovery},
-  author={Anonymous},
-  journal={Under Review},
-  year={2026}
+@inproceedings{huang2026star,
+  title     = {StaR: Stateful Dynamic-Graph Root Cause Analysis through Memory-Enhanced Causality Discovery},
+  author    = {Huang, Haiyu and Ng, Man Tik and Lyu, Jiewei and Huang, Yujie and Yu, Guangba and Wang, Yilun and Lyu, Michael R.},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD 2026)},
+  year      = {2026},
+  pages     = {12},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/3770855.3817863},
+  url       = {https://doi.org/10.1145/3770855.3817863}
 }
 ```
 
@@ -279,4 +284,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or issues, please open a GitHub issue or contact the authors (contact information will be added after review).
+For questions or issues, please open a GitHub issue or contact the authors.

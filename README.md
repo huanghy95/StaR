@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Anonymous submission for peer review**
-
 ## Overview
 
 **StaR (Stateful Root Cause Analysis)** is a novel deep learning framework for root cause analysis (RCA) and causal discovery in dynamic multivariate time series systems. By integrating temporal graph networks with Granger causality, StaR effectively captures both temporal dependencies and graph-structured relationships for accurate fault localization and causal structure inference.
